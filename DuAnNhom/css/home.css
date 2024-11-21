@@ -27,11 +27,14 @@ main{
 }
 .location{
     width: 280px;
-    
+    box-shadow: 2px 2px 5px 0 #666;
 }
 .location img{
     width: 280px;
-    
+}
+.content{
+    width: 90%;
+    margin-left: 15px;
 }
 .fe-star{
     color: #FFD43B;
@@ -63,6 +66,7 @@ main{
     color: red;
     font-size: 20px; font-weight: bold;
 }
+
 .events{
     display: flex;
     flex-wrap: wrap;
